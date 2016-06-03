@@ -1,0 +1,318 @@
+/* Empty. Add your own CSS if you like */
+
+
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+
+#b {
+    margin: 1px;
+}
+#content {
+    background: none repeat scroll 0 0;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+   
+    border-top:1px solid white;
+    
+    border-bottom:1px solid white;
+}
+
+
+p {
+    font-family: OpenSans-Bold;
+    color:white;
+    font-size:small;
+}
+
+.input-label{
+    font-family: OpenSans-Bold;
+    color:white;
+    
+}
+.col{
+    
+    border:0px  ;
+    
+}
+
+.container{
+    
+    height:100%;
+    width:100%;
+}
+.row{
+    
+   
+    
+    border:0px;
+    width:100%;
+    
+    
+}
+
+
+.list .item{
+    border: none;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    
+}
+
+.section1{
+    
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+   
+}
+
+.sectionrow{
+    
+    display: flex;
+    flex-direction:row;
+    justify-content::space-around;
+    border-bottom:1px solid white;
+}
+
+.sectionrow1{
+    
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    border-bottom:1px solid white;
+}
+
+.sectionrow2{
+    
+    display: flex;
+    flex-direction:column;
+    
+    align-items:center;
+}
+
+.sectioncolumn{
+    
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+
+.section3{
+    
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    border-bottom:1px solid white;
+    
+}
+.section2{
+    
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+   
+}
+
+.itemsection1{
+    
+ 
+ flex-basis:auto;
+}
+
+.itemsection2{
+    
+    
+    flex-basis:auto;
+}
+
+.itemInsideSection1{
+    
+    
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.onemoredepthSection1{
+    
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    
+    
+}
+
+.item-select select,  .item-select select option{
+    left: 50%;
+    color:white;
+}
+
+.item1,.item2{
+    
+    
+    border-bottom:1px solid white !important;
+}
+
+select{
+    
+    border:none !important;
+}
+
+.mycolor{
+    
+    color:red;
+}
+
+.itemsection2{
+    
+    
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    
+     
+     
+}
+
+.itemInsideSection2{
+    
+    
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+   
+    
+   
+}
+
+.itemInsideSection3{
+    
+    display: flex;
+    flex-direction:row;
+   justify-content::space-between;
+    
+}
+
+.itemInsideSection3{
+    
+    display: flex;
+    flex-direction:column;
+    justify-content::space-between;
+    
+}
+
+.onemoredepthSection2{
+    
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    
+}
+
+.title{
+    
+    text-align:center;
+}
+
+canvas{
+    width: 100% !important;
+    max-width: 1200px;
+   
+}
+
+
+
+
+/*****************************************************
+ * generic styling for ALS elements: outer container
+ ******************************************************/
+
+.als-container {
+    position: relative;
+    width: 100%;
+    margin: 0px auto;
+    z-index: 0;
+}
+
+/****************************************
+ * viewport styling
+ ***************************************/
+
+.als-viewport {
+    position: relative;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+/***************************************************
+ * wrapper styling
+ **************************************************/
+
+.als-wrapper {
+    position: relative;
+    /* if you are using a list with <ul> <li> */
+    list-style: none;
+}
+
+/*************************************
+ * item: single list element
+ ************************************/
+
+.als-item {
+    position: relative;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+
+/***********************************************
+ * prev, next: buttons styling
+ **********************************************/
+
+.als-prev, .als-next {
+    position: absolute;
+    cursor: pointer;
+    clear: both;
+}
+
+.settings {
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image: url('../img/settings.png');
+    background-size:contain;
+    background-position: 50%;
+    height: 100%;
+}
+.location {
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image: url('../img/location.png');
+    background-size:contain;
+    background-position: 50%;
+    height: 100%;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#map-canvas {
+    width: 100%;
+    height: 100%;
+}
+.gm-style-iw {
+    text-align: center;
+}
+
+
